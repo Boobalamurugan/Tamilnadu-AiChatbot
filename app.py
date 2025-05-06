@@ -1046,5 +1046,5 @@ def get_full_response():
 if __name__ == '__main__':
     # Run the Flask application
     print("Starting Tamilnadu Tourism Guide...")
-    print("Access the application at http://localhost:5000")
-    app.run()
+    print("Access the application at http://0.0.0.0:5000")
+    app.run(host='0.0.0.0', port=5000)
